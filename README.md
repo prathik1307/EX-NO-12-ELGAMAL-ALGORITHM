@@ -17,7 +17,7 @@ To Implement ELGAMAL ALGORITHM
 4. Encryption:
    - The sender picks a random integer \( k \), computes \( c_1 = g^k \mod p \), and \( c_2 = m \times y^k \mod p \), where \( m \) is the message.
    - The ciphertext is the pair \( (c_1, c_2) \).
-
+   - 
 5. Decryption:
    - The receiver computes \( s = c_1^x \mod p \), and then calculates the plaintext message \( m = c_2 \times s^{-1} \mod p \), where \( s^{-1} \) is the modular inverse of \( s \).
 
