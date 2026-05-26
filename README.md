@@ -24,6 +24,7 @@ To Implement ELGAMAL ALGORITHM
 6. Security: The security of the ElGamal algorithm relies on the difficulty of solving the discrete logarithm problem in a large prime field, making it secure for encryption.
 
 ## Program:
+```
 #include <stdio.h>
 #include <math.h>
 
@@ -72,7 +73,7 @@ int main()
 
     return 0;
 }
-
+```
 ## Output:
 
 <img width="1536" height="811" alt="image" src="https://github.com/user-attachments/assets/b2ac05e4-2f29-4663-909a-1a9702cb2564" />
